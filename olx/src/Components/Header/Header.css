@@ -1,0 +1,59 @@
+.nav-profile{
+    font-size: 1.2rem;
+}
+
+
+.second-search{
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.search-bar input{
+    border: 2px solid;
+   
+}
+
+.second-panel-input{
+    border: 1px solid ;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.menu-div div{
+    display: flex;
+    cursor: pointer;
+}
+
+.menu-div div:hover{
+    color:rgb(255, 162, 0)
+}
+
+.menu-div div svg{
+    margin-right: 10px;
+}
+
+.caretUpwarding{
+    animation: caretUpward 0.3s linear forwards;
+}
+
+@keyframes caretUpward{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.caretDownwarding{
+    animation: caretDownward 0.3s linear forwards;
+}
+
+@keyframes caretDownward{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
